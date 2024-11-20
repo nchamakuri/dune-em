@@ -27,7 +27,7 @@ The module also would require additional softwares:
 + HDF5 library
   
 First, download the DUNE core modules to a single directory on your computer.
-For example, create a directory and clone the core modules and extension modules required for `dune-heart` into it:  
+For example, create a directory and clone the core modules and extension modules required for `dune-em` into it:  
 _Note: Checkout release branch 2.9 when the modules are downloaded directly from git._  
 ```bash
 mkdir Dune
@@ -46,7 +46,7 @@ git clone https://gitlab.dune-project.org/pdelab/dune-pdelab.git
 
 Getting started
 ---------------
-Download the `dune-heart` module into the same directory (`Dune`) where the other modules are located.
+Download the `dune-em` module into the same directory (`Dune`) where the other modules are located.
 If all the prerequisites are met, run the following command:
 
 ```bash    
@@ -83,9 +83,9 @@ If you save this information into `example.opts` you can pass the opts file to
 ```
 Compling the program:
 --------------------
-Navigate to the build directory inside the `dune-heart` module and then to the electromechanics directory to run the cardiac mechanics simulation as follows:  
+Navigate to the build directory inside the `dune-em` module and then to the electromechanics directory to run the cardiac mechanics simulation as follows:  
 ```bash
-cd dune-heart/build-cmake/dune/heart/electromechanics/
+cd dune-em/build-cmake/dune/electromechanics/
 ```
 
 Go to the `em_partitioned` directory for the partitioned scheme or the `em_coupled` directory for the monolithic/coupled scheme.
