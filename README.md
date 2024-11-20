@@ -1,3 +1,15 @@
+Short description of the repository
+====================================
+Electro-mechanical models of the human heart have proven effective in investigating the fundamental mechanisms of 
+heartbeat function in both healthy and diseased states. The deformation tensor's active component captures the electric 
+potential wave information, derived from the Mitchell-Schaeffer Regularized (MSR) ionic model in Lagrangian configuration. 
+Due to the highly nonlinear nature of the fully coupled electromechanical (EM) model, solving it requires significant 
+computational resources. The complexity of the cardiac electro-mechanical coupling has driven the development of efficient 
+numerical methods, including operator splitting and monolithic approaches. However, simple explicit splitting schemes have
+ been found to present severe stability challenges when applied to realistic models. These algorithms utilize the 
+ finite element (FE) method for spatial discretization, along with efficient time-stepping schemes in both approaches.
+
+
 Preparing the Sources
 =========================
 
