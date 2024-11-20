@@ -1,0 +1,2 @@
+add_subdirectory(em_coupled)
+add_subdirectory(em_partitioned)

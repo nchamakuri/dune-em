@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: dune-em
+Version: 2.5
+Maintainer: nagaiah.chamakuri@iisertvm.ac.in
+# Required build dependencies
+Depends: dune-common dune-geometry dune-uggrid dune-grid dune-istl dune-localfunctions dune-typetree dune-functions dune-alugrid dune-pdelab
+# Optional build dependencies
+#Suggests:
